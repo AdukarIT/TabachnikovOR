@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>index.html</title>
+  </head>
+
+  <header>
+    <h1>
+      Ремонтники INC
+    </h1>
+    <nav>
+      <ul>
+        <li><a href="">Услуги </a></li>
+        <li><a href="">Устройства</a></li>
+        <li><a href="">Отзывы</a></li>
+        <li><a href="">Связаться с нами</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <body>
+    <section>
+      <p>Наши услуги</p>
+      <ul>
+        <li><a href="">Замена экрана</a></li>
+        <li><a href="">Замена динамика</a></li>
+        <li><a href="">Замена корпуса</a></li>
+      </ul>
+    </section>
+  </body>
+  <footer></footer>
+
+</html>
