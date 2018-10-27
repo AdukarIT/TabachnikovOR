@@ -1,4 +1,4 @@
-## Дз к уроку 1
+#Дз к уроку 1
 
 1. код 301, редирект
 2. сервер Internet Information Services
@@ -9,3 +9,4 @@
 
 #Основы HTML
 Задание1: https://github.com/AdukarIT/TabachnikovOR/tree/master/HTML1
+Задание2: https://github.com/AdukarIT/TabachnikovOR/tree/master/HTML2
