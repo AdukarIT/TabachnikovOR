@@ -10,3 +10,4 @@
 #Основы HTML
 Задание1: https://github.com/AdukarIT/TabachnikovOR/tree/master/HTML1
 Задание2: https://github.com/AdukarIT/TabachnikovOR/tree/master/HTML2
+Задание3: добавлены формы отзывов к з1 и з2
