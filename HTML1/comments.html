@@ -52,6 +52,46 @@
       </ul>
     </nav>
     </section>
+	
+	<div>
+	<h3>
+  Оставьте ваш отзыв
+</h3>
+<form name="feedback" action="/fb" method="post">
+ 
+  <p>
+    <label>Ваше имя
+            <input type="text" name="Name" placeholder="Ваше имя" autocomplete required>
+        </label>
+  </p>
+
+  <p>
+    <label>Ваша фамилия
+            <input type="email" placeholder="Ваша фамилия" name="surname" autocomplete required>
+        </label>
+  </p>
+
+<p>
+    <label>Ваш номер телефона
+            <input type="phone" placeholder="Телефон" name="phone" autocomplete required>
+        </label>
+  </p>
+
+  <p>
+    <label>Напишите ваш комментарний<br>
+            <textarea cols="40" rows="4" name="additional_info"
+                placeholder="Ваш комментарий:"
+            ></textarea>
+        </label>
+  </p>
+
+  <p>
+    <input type="submit" value="Отправить">
+  </p>
+</form>
+</div>
+
+	
     <section>
       <h2 id="t5"><p>Связаться с нами</p></h2>
       <p>Мы работаем с понедельника по пятницу<br/>
