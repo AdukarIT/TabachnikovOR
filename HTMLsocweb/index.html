@@ -6,76 +6,76 @@
   <title>InstaChe</title>
 </head>
 
-<header>
-  <h1 id="t1">InstaChe</h1>
-  <img src="files/images/logo.jpg" alt="Логотип" width="50" height="50"></img>
-</header>
-
 <body>
 
-  <p>
-    Войдите в вашу учетную запись или зарегестрируйтесь
-  </p>
-  <form name="login" action="login.com" method="post">
+  <header>
+    <h1 id="t1">InstaChe</h1>
+    <img src="files/images/logo.jpg" alt="Логотип" width="50" height="50" />
+  </header>
 
+  <div>
     <p>
-      <label>Ваш email</br>
-        <input type="email" placeholder="Ваш email" name="email" autocomplete required>
-      </label>
+      Войдите в вашу учетную запись или зарегестрируйтесь
     </p>
+    <form name="login" action="feed.html" method="post">
+
+      <p>
+        <label>Ваш email<br>
+          <input type="email" placeholder="Ваш email" name="email" autocomplete="on" required>
+        </label>
+      </p>
+      <p>
+        <label>Ваш пароль <br>
+          <input type="text" name="password" placeholder="Ваш пароль" autocomplete="off" required>
+        </label>
+      </p>
+
+      <p>
+        <input type="submit" value="Войти">
+      </p>
+    </form>
+  </div>
+
+  <div>
     <p>
-      <label>Ваш пароль </br>
-        <input type="text" name="password" placeholder="Ваш пароль" autocomplete required>
-      </label>
+      Регистрация
     </p>
+    <form name="signup" action="feed.html" method="post">
 
-    <p>
-      <input type="submit" value="Войти" action="feed.html">
-    </p>
-  </form>
+      <p>
+        <label>Ваш никнейм<br>
+          <input type="text" placeholder="Ваш никнейм" name="nickname" autocomplete="off" required>
+        </label>
+      </p>
 
-  <p>
-    Регистрация
-  </p>
-  <form name="signup" action="signup.com" method="post">
+      <p>
+        <label>Ваш email<br>
+          <input type="email" placeholder="Ваш email" name="email" autocomplete="on" required>
+        </label>
+      </p>
 
-    <p>
-      <label>Ваш никнейм</br>
-        <input type="nickname" placeholder="Ваш никнейм" name="nickname" autocomplete required>
-      </label>
-    </p>
+      <p>
+        <label>Ваш пароль<br>
+          <input type="text" name="password" placeholder="Ваш пароль" autocomplete="off" required>
+        </label>
+      </p>
 
-    <p>
-      <label>Ваш email</br>
-        <input type="email" placeholder="Ваш email" name="email" autocomplete required>
-      </label>
-    </p>
+      <p>
+        <label>Повторите пароль<br>
+          <input type="text" name="passwordreply" placeholder="Повторите пароль" autocomplete="off" required>
+        </label>
+      </p>
 
-    <p>
-      <label>Ваш пароль</br>
-        <input type="text" name="password" placeholder="Ваш пароль" autocomplete required>
-      </label>
-    </p>
+      <input type=checkbox required />
+      Данным пунктом вы подтверждаете свое согласие на обработку Ваших персональных данных
 
-    <p>
-      <label>Повторите пароль</br>
-        <input type="text" name="passwordreply" placeholder="Повторите пароль" autocomplete required>
-      </label>
-    </p>
 
-    <input type=checkbox required>
-    Данным пунктом вы подтверждаете свое согласие на обработку Ваших персональных данных
-    </input>
-
-    <p>
-      <input type="submit" value="Регистрация" action="feed.html">
-    </p>
-  </form>
+      <p>
+        <input type="submit" value="Регистрация">
+      </p>
+    </form>
+  </div>
 
 </body>
-
-<footer>
-
-</footer>
 
 </html>

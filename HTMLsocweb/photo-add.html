@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Опубликовать новость</title>
+</head>
+
+<body>
+
+  <header>
+    <h1 id="t1">InstaChe</h1>
+    <img src="files/images/logo.jpg" alt="Логотип" width="50" height="50" />
+  </header>
+
+  <div>
+    <form action="feed.html">
+      <p>
+        <button>Вернуться в ленту новостей</button>
+      </p>
+    </form>
+  </div>
+  <div>
+    <h2>Добавить новую запись</h2>
+    <form style="text-align: left" action="feed.html">
+      <p>
+        <label>
+          <textarea cols="50" rows="8" name="content" placeholder="Введите ваш текст"></textarea>
+        </label>
+      </p>
+      <p>Прикрепите файл</p>
+      <img src="files/images/pngphoto.png" width="15" height="15" alt="Значок" />
+      <input type="file" name="addfile" accept="image/jpeg,image/png,image/gif"><br />
+      <img src="files/images/musicpng.png" width="15" height="15" alt="Значок" />
+      <input type="file" name="addfile" accept="audio/*"><br />
+      <img src="files/images/videopng.jpg" width="15" height="15" alt="Значок" />
+      <input type="file" name="addfile" accept="video/*"><br />
+      <p style="text-align: left">
+        <input type="submit" value="Прикрепить">
+      </p>
+      <button type="submit">
+        <img src="files/images/feedlogo.jpg" width="25" height="15" alt="Значок новости" />Добавить новость
+      </button>
+    </form>
+  </div>
+
+</body>
+
+</html>
