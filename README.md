@@ -17,8 +17,9 @@
 Задание3: добавлены формы отзывов к з1 и з2
 
 
-Задание4: 4.1  https://github.com/AdukarIT/TabachnikovOR/tree/master/HTMLsocweb
-          4.2  https://github.com/AdukarIT/TabachnikovOR/tree/master/HTMLschool
+Задание4: 
+  4.1  https://github.com/AdukarIT/TabachnikovOR/tree/master/HTMLsocweb       
+  4.2  https://github.com/AdukarIT/TabachnikovOR/tree/master/HTMLschool
 
 #  CSS Позиционирование. 
 Ответы на тесты.
