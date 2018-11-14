@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Оформить заказ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>TechUnion</h1>
+  </header>
+  <nav>
+    <ul class="menu">
+      <li class="hometech">
+        <a href="">Бытовая техника</a>
+        <ul class="submenu">
+          <li><a href="">Стиральные машины</a></li>
+          <li><a href="">Пылесосы</a></li>
+          <li><a href="">Утюги</a></li>
+          <li><a href="">Электровеники</a></li>
+          <li><a href="">Сушилки для обуви</a></li>
+        </ul>
+      </li>
+      <li class="hometech">
+        <a href="">Техника для кухни</a>
+        <ul class="submenu">
+          <li><a href="">Холодильники</a></li>
+          <li><a href="">Кухонные плиты</a></li>
+          <li><a href="">Морозильники</a></li>
+          <li><a href="">Настольные плиты</a></li>
+          <li><a href="">Ростеры, мини-печи</a></li>
+          <li><a href="">Вытяжки</a></li>
+          <li><a href="">Микроволновые печи</a></li>
+        </ul>
+      </li>
+      <li class="hometech">
+        <a href="">Компьютерная техника</a>
+        <ul class="submenu">
+          <li><a href="">Ноутбуки</a></li>
+          <li><a href="">Планшеты</a></li>
+          <li><a href="">Компьютеры, моноблоки</a></li>
+          <li><a href="">Игровые приставки</a></li>
+          <li><a href="">Серверное оборудование</a></li>
+        </ul>
+      </li>
+      <li class="hometech">
+        <a href="">Корзина</a>
+      </li>
+    </ul>
+  </nav>
+  <div>
+    <h2>Оформите ваш заказ</h2>
+    <form name="feedback" action="/fb" method="post">
+      <p>
+        <label>Ваше имя<br>
+          <input type="text" name="Name" placeholder="имя" autocomplete="on" required>
+        </label>
+      </p>
+      <p>
+        <label>Ваше фамилия<br>
+          <input type="text" name="Surname" placeholder="фамилия" autocomplete="on" required>
+        </label>
+      </p>
+      <p>
+        <label>Ваш email<br>
+          <input type="email" placeholder="email" name="email" autocomplete="on" required>
+        </label>
+      </p>
+      <p>
+        <label>Ваш номер телефона<br>
+          <input type="tel" placeholder="номер телефона" name="phone" autocomplete="on">
+        </label>
+      </p>
+      <p>Выберете способ доставки</p>
+      <div>
+        <input class="input_self" type="radio" name="way" />
+        <span>Самовывоз со склада по адресу <label for="checkmap"><u>Немига 5</u></label></span><br>
+      </div>
+      <input class="checkmap" type="checkbox" id="checkmap" />
+      <div class="self" id="selfbutton">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.6927553773658!2d27.5478029343526!3d53.90166470968798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfebe68e0203%3A0x7b59184b5d72f463!2z0YPQu9C40YbQsCDQndC10LzQuNCz0LAgNSwg0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1542205689465"
+          width="400" height="300" style="border:0" allowfullscreen></iframe><br>
+      </div>
+      <input class="inputcourier" id="inputcourier" type="radio" name="way" />
+      <label for="inputcourier">Доставка курьером</label>
+      <div class="courier">
+        <label>Укажите адрес доставки:
+          <input type="text" placeholder="ваш адрес" name="adress" required>
+        </label>
+      </div>
+      <p>
+        <label>Комментарий к заказу:<br>
+          <textarea cols="30" rows="5" name="additional_info" placeholder="ваш комментарий"></textarea>
+        </label>
+      </p>
+      <div class="applybutton">
+        <input class="agreed" type="checkbox" required /> Подтверждая данный пункт вы соглашаетесь с <a href="https://www.21vek.by/services/delivery.html">условиями доставки</a><br />
+        <input class="enabledbutton" type="submit" value="Подтвердить заказ">
+        <input class="disabledbutton" type="submit" value="Подтвердить заказ" disabled>
+      </div>
+    </form><br />
+    <section>
+      <h3>Наши контакты</h3>
+      <p>Мы работаем без выходных<br>
+        С 10:00 до 20:00<br>
+        Сделать заказ можно по телефону +375333333333<br>
+        Наш адрес: г. Минск улица Немига 5, 3
+        таж, офис 11<br>
+        Пункты самовывоза находятся по адресу:<br>
+        г.Минск ул. Немига 5
+    </section>
+  </div>
+  <footer>
+
+  </footer>
+</body>
+
+</html>

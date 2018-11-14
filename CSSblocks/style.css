@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+nav ul {
+  background-color: #C0C0C0;
+  height: 80px;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14pt;
+}
+.submenu {
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  background-color: #C0C0C0;
+  list-style-type: none;
+}
+.submenu li {
+  background-color: #C0C0C0;
+}
+.menu li:hover .submenu {
+  display: block;
+}
+.menu li:hover {
+  outline: 2px solid white;
+  background-color: lightgray;
+}
+.hometech {
+  display: inline-block;
+  position: relative;
+}
+nav a {
+  display: block;
+  height: 80px;
+  text-decoration: none;
+  text-align: center;
+  padding: 1em 2em;
+}
+.self {
+  display: none;
+}
+.courier {
+  display: none;
+}
+.inputcourier:checked + label + div.courier {
+  display: block;
+}
+.checkmap {
+  display: none;
+}
+.checkmap:checked + div.self {
+  display: block;
+}
+.applybutton {
+  position:relative;
+}
+.disabledbutton {
+  position:absolute;
+  top: 30;
+  z-index:4;
+}
+.enabledbutton {
+  position:absolute;
+  top: 30;
+  display:none;
+  z-index: 5;
+}
+.agreed:checked ~ .enabledbutton {
+  display:block;
+}
