@@ -27,3 +27,7 @@
 1) https://webref.ru/node/1865/quiz-results/2717/view
 2) https://webref.ru/node/1459/quiz-results/2725/view
 3) https://webref.ru/node/1921/quiz-results/2737/view
+
+#  CSS Blocks.  
+
+д/з  https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSblocks
