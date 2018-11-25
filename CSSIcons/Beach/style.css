@@ -1,0 +1,7 @@
+.page__background {
+    background-image: url("sea.jpg"), url("sun.png"), url("sky.jpg");
+    background: url("sea.jpg") bottom no-repeat, url("sun.png") no-repeat center, url("sky.jpg");
+    background-size: 100% 50%, 25%, cover;
+    width: 100%;
+    height: 100%;
+}

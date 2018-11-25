@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'fontello';
+     src: url('fonts/fontello.eot');
+     src: url('fonts/fontello.eot') format('embedded-opentype'),
+          url('fonts/fontello.woff') format('woff'),
+          url('fonts/fontello.ttf') format('truetype'),
+          url('fonts/fontello.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+   .icon-unhappy {
+     font-family: 'fontello';
+   }
+   .icon-thumbsup {
+     font-family: 'fontello';
+   }
+   .icon-unhappy:before { content: '\e802'; }
+   .icon-thumbsup:before { content: '\e804'; }
+   .label__checkbox:before {
+     font-family: 'fontello';
+     display: inline-block;
+     width: 30;
+     height: 30;
+     border-radius: 3px;
+     box-sizing: border-box;
+     border: 2px solid black;
+     margin-right: 5px;
+     padding: 4px;
+     content: '\e802';
+   }
+   input[type=checkbox]:checked + .label__checkbox::before {
+     content: '\e804';
+   }
+   .form__checkbox {
+     display: none;
+   }
