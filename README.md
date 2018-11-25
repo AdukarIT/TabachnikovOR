@@ -34,8 +34,8 @@
 
 #  CSS Icons
 
-д/з  1) https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSIcons/Beach
-     2) https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSIcons/Like
-	 3) https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSIcons/Checkbox
-	 4) https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSIcons/header
+1)  https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSIcons/Beach
+2)  https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSIcons/Like
+3)  https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSIcons/Checkbox
+4)  https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSIcons/header
 	 
