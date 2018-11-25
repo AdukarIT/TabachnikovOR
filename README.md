@@ -31,3 +31,11 @@
 #  CSS Blocks.  
 
 д/з  https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSblocks
+
+#  CSS Icons
+
+д/з  1) https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSIcons/Beach
+     2) https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSIcons/Like
+	 3) https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSIcons/Checkbox
+	 4) https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSIcons/header
+	 
