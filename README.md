@@ -38,4 +38,8 @@
 2)  https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSIcons/Like
 3)  https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSIcons/Checkbox
 4)  https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSIcons/header
-	 
+
+#   CSS flex
+
+1)  https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSflex/adukar  
+2)	https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSflex/vk  
