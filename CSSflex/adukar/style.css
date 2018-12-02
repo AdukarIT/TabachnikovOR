@@ -1,0 +1,136 @@
+* {
+  box-sizing:border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+.header__main_frame {
+  height: 630px;
+  background-position: center center;
+  background-attachment: scroll;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(46,18,18,0.6)), url(https://static.tildacdn.com/tild3566-3137-4638-a432-643863316231/land-ct.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header__title {
+  font-size: 50px;
+  font-weight: 600px;
+  line-height: 1.05;
+  color: #fff;
+}
+.header__link, .contact__number {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 30px;
+}
+.header__link:hover {
+  border-bottom: 1px solid #fff;
+}
+.contact__number {
+  font-weight: lighter;
+  font-size: 15px;
+  vertical-align: middle;
+  margin-right: 30px;
+  position: absolute;
+  right: 160px;
+  top: 40px;
+}
+.header__title_text {
+    color: #fff;
+    display: block;
+    font-size: 25px;
+    line-height: 1.05;
+    font-weight: 300;
+    margin-top: 25px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+.header__topframe_position {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.adukar__logo_link {
+  margin-left: 40px;
+  width: 150px;
+  height: auto;
+}
+.header__contacts_block {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: 40px;
+}
+.contacts__link_icons {
+  margin-right: 8px;
+}
+.header__title {
+  width: 100%;
+  text-align: center;
+  margin-top: 45px;
+}
+.header__image_items {
+  height: 100px;
+  width: 70%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+}
+.header__image_sizing {
+  width: 70px;
+  height: auto;
+  margin-left: 100px;
+}
+.header__image_text {
+  display: block;
+  width: 20%;
+  margin-left: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.55;
+  font-weight: 400;
+}
+.header__image_crutch {
+  margin: 0;
+}
+.header__button_text {
+  margin-top: 35px;
+  text-align: center;
+  line-height: 1.05;
+  font-weight: 100;
+  color: #fff;
+  font-size: 20px;
+}
+.register__button {
+  color: #fff;
+  display: block;
+  text-decoration:none;
+  font-size: 18px;
+  line-height: 1.55;
+  font-weight: 500;
+  border: 1px solid #e55;
+  border-radius: 5px;
+  background-color: #e55;
+  width: 300px;
+  height: 45px;
+  text-align: center;
+  transition: 0.2s;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+.register__button:hover {
+  color: #e55;
+  background-color: #fff;
+
+}
