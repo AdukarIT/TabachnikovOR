@@ -3,79 +3,94 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Reparatisti</title>
+  <title>iStore</title>
+  <link rel="stylesheet" href="main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:300,400,700|Prompt:300,400,700" rel="stylesheet">
 </head>
 
-<header>
-  <h1 id="t1">Gospoda Reparatisti</h1>
-  <img src="files/logo.jpg" alt="Логотип" width="120" height="120"></img>
-  <nav>
-    <ul>
-      <li><a href="#t2">Услуги</a></li>
-      <li><a href="#t3">Устройства</a></li>
-      <li><a href="comments.html#feedback">Отзывы</a></li>
-      <li><a href="#t4">Связаться с нами</a></li>
-    </ul>
-  </nav>
-</header>
-
 <body>
-  <section>
-    <h2 id="t2">
-      Наши услуги
-    </h2>
-    <ul>
-      <li>
-        <p>Замена экрана</p>
-      </li>
-      <li>
-        <p>Замена динамика</p>
-      </li>
-      <li>
-        <p>Замена корпуса</p>
-      </li>
-    </ul>
-    <p><a href="files/price.xlsx">Наши цены</a></p>
-  </section>
-  <section>
-    <h2 id="t3">
-      <p>Мы ремонтируем следующие устройства</p>
-    </h2>
-    <div>
-      <img src="files/model/Apple.png" alt="логотип apple" width="100" Height="100"></img>
+  <header>
+    <div class="header__main">
+      <img src="files/images.png" alt="Логотип" width="140" height="50"></img>
+      <h1 class="header__main__title" id="t1"><span class="header__title_letter">i</span>Store</h1>
+      <div class="header__menu_navigation">
+        <ul>
+          <li class="menu__item"><a class="menu__item_link" href="#t2">Услуги</a></li>
+          <li class="menu__item"><a class="menu__item_link" href="#t3">Устройства</a></li>
+          <li class="menu__item"><a class="menu__item_link" href="comments.html#feedback">Отзывы</a></li>
+          <li class="menu__item"><a class="menu__item_link" href="#t4">Связаться с нами</a></li>
+        </ul>
+      </div>
     </div>
-    <p>iPhone</p>
-    <div>
-      <img src="files/model/samsung.png" alt="логотип samsung" width="100" Height="100"></img>
+  </header>
+  <div>
+    <span class="servises__title" id="t2">Наши услуги</span>
+    <div class="servises__menu">
+      <ul>
+        <li class="servises__list">
+          <span>Замена экрана</span>
+        </li>
+        <li class="servises__list">
+          <span>Замена динамика</span>
+        </li>
+        <li class="servises__list">
+          <span>Замена корпуса</span>
+        </li>
+      </ul>
     </div>
-    <p>Samsung</p>
     <div>
-      <img src="files/model/Xiaomi.svg.png" alt="логотип xiaomi" width="100" Height="100"></img>
+      <a class="button__price_link" href="files/price.xlsx">Наши цены</a>
     </div>
-    <p>Xiaomi</p>
-    <div>
-      <img src="files/model/htc.jpg" alt="логотип htc" width="100" Height="100"></img>
+  </div>
+  <div>
+    <span class="servises__title devices__title" id="t3">Мы ремонтируем следующие устройства</span>
+    <div class="devices__main_block">
+      <div class="services__menu_item">
+        <img src="files/model/Apple.png" alt="логотип apple" width="auto" Height="60" />
+        <span class="model__brand_text">iPhone</span>
+      </div>
+      <div class="services__menu_item">
+        <img src="files/model/samsung.png" alt="логотип samsung" width="auto" Height="60" />
+        <span class="model__brand_text">Samsung</span>
+      </div>
+      <div class="services__menu_item">
+        <img src="files/model/Xiaomi.svg.png" alt="логотип xiaomi" width="auto" Height="60" />
+        <span class="model__brand_text">Xiaomi</span>
+      </div>
+      <div class="services__menu_item">
+        <img src="files/model/htc.jpg" alt="логотип htc" width="auto" Height="60" />
+        <span class="model__brand_text">HTC</span>
+      </div>
+      <div class="services__menu_item">
+        <img src="files/model/lg.png" alt="логотип LG" width="auto" Height="60" />
+        <span class="model__brand_text">LG</span>
+      </div>
+
     </div>
-    <p>HTC</p>
-    <div>
-      <img src="files/model/lg.png" alt="логотип LG" width="100" Height="100"></img>
+  </div>
+  <div>
+    <input class="contacts__map_checkbox" type="checkbox" id="checkmap" />
+    <div class="contacts__map_block">
+      <iframe class="contacts__map_frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.6927553773658!2d27.5478029343526!3d53.90166470968798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfebe68e0203%3A0x7b59184b5d72f463!2z0YPQu9C40YbQsCDQndC10LzQuNCz0LAgNSwg0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1542205689465"
+        width="100%" height="350" style="border:0" allowfullscreen></iframe><br>
     </div>
-    <p>LG</p>
-  </section>
-  <section>
-    <h2 id="t4">
+    <span class="servises__title devices__title" id=" t4">
       Связаться с нами
-    </h2>
-    <p>Мы работаем с понедельника по пятницу<br />
+    </span>
+    <span class="contacts_text">
+      Мы работаем с понедельника по пятницу<br />
       График работы: 10:00-20:00<br />
       Наш телефон +375333333333<br />
-      Наш адрес: г. Минск улица Такая то, офис №1</p>
-  </section>
+      Наш адрес: г. Минск, Немига 5, офис №1</span>
+    <label class="contacts__button_map" for="checkmap"><span>Показать на карте</span></label>
+    </section>
 
 </body>
 
 <footer>
-  <h6>Все права защищены</h6>
+  <div class="footer__main_block">
+    <span class="footer__reserved_text">Все права защищены</span>
+  </div>
 </footer>
 
 </html>

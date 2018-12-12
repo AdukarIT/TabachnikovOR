@@ -1,0 +1,256 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header__main {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__main img {
+  margin-left: 30px;
+}
+.header__main__title {
+  margin-left: 430px;
+  font-family: 'Prompt', sans-serif;
+  font-size: 55px;
+}
+.header__title_letter {
+  color: green;
+}
+.header__menu_navigation {
+  margin-right: 30px;
+}
+.menu__item {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  padding: 1em;
+  outline: none;
+  border-radius: 1px;
+  display: table-cell;
+  vertical-align: center;
+  text-align: center;
+}
+.menu__item_link {
+  text-decoration: none;
+  font-family: 'Fira Sans Condenced', sans-serif;
+  font-size: 14px;
+  color: black;
+}
+.menu__item_link:visited {
+  color: black;
+}
+.menu__item_link:hover {
+  color: green;
+}
+.menu__item:hover {
+  background-image:
+   radial-gradient(1px 45% at 0% 50%, rgba(0,0,0,.6), transparent),
+   radial-gradient(1px 45% at 100% 50%, rgba(0,0,0,.6), transparent);
+}
+.menu__item:active {
+  background-image:
+   radial-gradient(45% 45% at 50% 100%, rgba(255,255,255,.9), rgba(255,255,255,0)),
+   linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.3));
+  box-shadow:
+   inset rgba(162,95,42,.4) 0 0 0 1px,
+   inset rgba(255,255,255,.9) 0 0 1px 3px;
+}
+.servises__title {
+  cursor: pointer;
+  display: block;
+  width: 300px;
+  height: 60px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Fira Sans Condenced', sans-serif;
+  font-size: 45px;
+}
+.servises__title:hover {
+  color: green;
+}
+.servises__menu {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.servises__list {
+  cursor: pointer;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: 'Fira Sans Condenced', sans-serif;
+}
+.servises__list:hover {
+  color: green;
+}
+
+.button__price_link {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  color: white;
+  background-color: green;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+  position: relative;
+  top: 25px;
+  left: calc(50% - 110px)
+}
+.button__price_link:hover {
+  background: rgba(255,255,255,.2);
+  color: green;
+ }
+.button__price_link:active {
+  background: white;
+}
+.button__price_link:before {
+  content: "";
+  background: linear-gradient(90deg, rgba(255,255,255,.03), rgba(255,255,255,.5));
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: -8px;
+  transform: skewX(-45deg);
+  animation: shine 1s linear infinite;
+}
+
+.devices__main_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+  position: relative;
+}
+.devices__title {
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 35px;
+}
+.services__menu_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 150px;
+  margin-top: 30px;
+}
+.services__menu_item:hover {
+  background-image:
+   radial-gradient(1px 45% at 0% 50%, rgba(0,0,0,.6), transparent),
+   radial-gradient(1px 45% at 100% 50%, rgba(0,0,0,.6), transparent);
+}
+.model__brand_text {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Fira Sans Condenced', sans-serif;
+}
+.model__brand_text:hover {
+  color: green;
+}
+.contacts_text {
+  display: block;
+  font-family: 'Fira Sans Condenced', sans-serif;
+  text-align: center;
+}
+
+.contacts__map_checkbox {
+  display: none;
+}
+.contacts__map_checkbox:checked ~ .contacts__button_map {
+  background: rgba(255,255,255,.2);
+  color: green;
+}
+.contacts__button_map {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  color: white;
+  background-color: green;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+  position: relative;
+  top: 25px;
+  left: calc(50% - 110px)
+}
+.contacts__button_map:hover {
+  background: rgba(255,255,255,.2);
+  color: green;
+ }
+ .contacts__button_map:before {
+   content: "";
+   background: linear-gradient(90deg, rgba(255,255,255,.03), rgba(255,255,255,.5));
+   width: 50px;
+   height: 60px;
+   position: absolute;
+   top: -8px;
+   transform: skewX(-45deg);
+   animation: shine 1s linear infinite;
+   }
+ }
+ .contacts__map_checkbox:checked ~ .contacts__button_map {
+   background: rgba(255,255,255,.2);
+   color: green;
+  }
+  .contacts__map_block {
+    margin-top: 50px;
+    height: 0;
+    transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: linear;
+    overflow: hidden;
+  }
+.contacts__map_checkbox:checked ~ .contacts__map_block {
+  height: 350px;
+}
+.footer__main_block {
+  margin-top: 100px;
+  width: 100%;
+  height: 40px;
+  color: white;
+  background-color: green;
+  position: relative;
+}
+.footer__reserved_text {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-family: 'Prompt', sans-serif;
+  font-size: 14px;
+}
+
+
+@keyframes shine {
+  from {left: -75px;}
+  to {left: 150px;}
+}
