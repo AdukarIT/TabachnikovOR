@@ -1,0 +1,15 @@
+.helix__image {
+  width: 50px;
+  height: 50px;
+}
+.helix__containeer_animation {
+  height: 50px;
+  width: 50px;
+  box-sizing: border-box;
+  transition-property: all;
+  transition-duration: 3s;
+  transition-timing-function: ease;
+}
+.helix__containeer_animation:hover {
+  transform: rotate(1080deg);
+}

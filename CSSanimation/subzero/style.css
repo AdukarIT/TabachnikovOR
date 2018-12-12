@@ -1,0 +1,12 @@
+.subzero__containeer_animation {
+  cursor: pointer;
+  height: 135px;
+  width: 66px;
+  background-image: url(./687474703a2f2f7777772e6d70626f782e72752f6173736574732f696d616765732f776974686f75742d666c6173682f67616d656465762f73686565742e6a7067.jpg);
+  transition-property: all;
+  transition-duration: .3s;
+  transition-timing-function: steps(6);
+}
+.subzero__containeer_animation:hover {
+  background-position: right;
+}
