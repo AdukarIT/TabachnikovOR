@@ -1,0 +1,54 @@
+  .header__menu_navigation {
+        margin-right: 30px;
+        .menu__item {
+          display: inline-block;
+          width: 150px;
+          height: 50px;
+          padding: 1em;
+          outline: none;
+          border-radius: 1px;
+          display: table-cell;
+          vertical-align: center;
+          text-align: center;
+             .header__menu_navigation {
+        margin-right: 30px;
+      }
+}
+}
+.menu__item_link {
+  text-decoration: none;
+  font-family: 'Fira Sans Condenced', sans-serif;
+  font-size: 14px;
+  color: black;
+}
+.menu__item_link:visited {
+  color: black;
+}
+.menu__item_link:hover {
+  color: green;
+}
+.menu__item {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  padding: 1em;
+  outline: none;
+  border-radius: 1px;
+  display: table-cell;
+  vertical-align: center;
+  text-align: center;
+  &:hover {
+    background-image:
+     radial-gradient(1px 45% at 0% 50%, rgba(0,0,0,.6), transparent),
+     radial-gradient(1px 45% at 100% 50%, rgba(0,0,0,.6), transparent);
+  }
+}
+
+.menu__item:active {
+  background-image:
+   radial-gradient(45% 45% at 50% 100%, rgba(255,255,255,.9), rgba(255,255,255,0)),
+   linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.3));
+  box-shadow:
+   inset rgba(162,95,42,.4) 0 0 0 1px,
+   inset rgba(255,255,255,.9) 0 0 1px 3px;
+}

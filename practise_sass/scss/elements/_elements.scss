@@ -1,0 +1,36 @@
+.button__price_link {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    color: white;
+    background-color: green;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+    position: relative;
+    top: 25px;
+    left: calc(50% - 110px)
+  }
+  .button__price_link:hover {
+    background: rgba(255,255,255,.2);
+    color: green;
+   }
+  .button__price_link:active {
+    background: white;
+  }
+  .button__price_link:before {
+    content: "";
+    background: linear-gradient(90deg, rgba(255,255,255,.03), rgba(255,255,255,.5));
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -8px;
+    transform: skewX(-45deg);
+    animation: shine 1s linear infinite;
+  }
+  

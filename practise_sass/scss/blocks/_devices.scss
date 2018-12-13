@@ -1,0 +1,34 @@
+.devices__main_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+    .services__menu_item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 50px;
+      margin-right: 50px;
+      width: 150px;
+      margin-top: 30px;
+      .model__brand_text {
+        margin-top: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        font-family: 'Fira Sans Condenced', sans-serif;
+      }
+      .model__brand_text:hover {
+        color: green;
+      }
+    }
+.devices__title {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 35px;
+  }
+}
