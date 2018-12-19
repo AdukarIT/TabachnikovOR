@@ -49,3 +49,7 @@
 1)  https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSanimation/ball
 2)  https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSanimation/helix
 3)  https://github.com/AdukarIT/TabachnikovOR/tree/master/CSSanimation/subzero
+
+#   CSS sass
+
+д/з   https://github.com/AdukarIT/TabachnikovOR/tree/master/CSS_sass
