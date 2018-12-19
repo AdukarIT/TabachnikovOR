@@ -1,0 +1,41 @@
+.page__block_left {
+  margin: 1.8em 0 1.8em 2em;
+}
+.left__element {
+    background: url(../images/BG_elem_left.png) no-repeat;
+    width: 255px;
+    height: 250px;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    }
+    .left__element_image {
+       font: normal normal normal 14px/1 FontAwesome;
+       position: absolute;
+       top: 1.2em;
+       left: 3.42em;
+       font-size: 2em;
+       transition: ease-out 1s;
+       display: inline-block;
+    }
+    .left__element_title {
+       margin: .8em 0 .8em -.8em;
+       font-weight: 400;
+       font-size: 1.25em;
+       color: #383838;
+       transition: ease-out 1s;
+     }
+     .left__element_text {
+        margin: 0;
+        margin-left: -1.5em;
+        width: 13.3em;
+        font-size: .9em;
+        text-align: center;
+        transition: ease-out 1s;
+    }
+    .left__element:hover .left__element_image, .left__element:hover .left__element_title, .left__element:hover p {
+    	color: black;
+    }

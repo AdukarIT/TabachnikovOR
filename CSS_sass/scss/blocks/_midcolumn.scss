@@ -1,0 +1,84 @@
+.page__block_middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000;
+    padding: 0 2em;
+}
+.page__block_middle img {
+    width: 21.5em;
+    margin-top: 3em;
+    animation-duration: 8s;
+    animation-delay: 1s;
+}
+.page__block_middle div {
+    font-size: 5.3em;
+    font-family: 'BankGothicBold' sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    cursor: default;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    padding-left: 10px;
+}
+.page__block_middle span {
+    font-size: 3em;
+    font-family: 'BankGothicBold' sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.42em;
+    width: 7.3em;
+    cursor: default;
+    animation-duration: 8s;
+    animation-delay: 1s;
+}
+.page__block_middle p {
+    font-size: 1em;
+    margin: 0;
+    margin-top: 2em;
+    width: 22em;
+}
+
+.middle__button {
+    margin-top: 2em;
+    padding-top: 5px;
+    width: 14em;
+    height: 42px;
+    background: #000;
+    border-radius: .3em;
+    border: 0;
+    color: #eff0f1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    transition: ease-out 1s;
+    &:hover {
+        background: #646464;
+    }
+}
+.page__middle_socials a {
+    margin-top: 2.2em;
+    font-size: .6em;
+    padding-right: .5em;
+    text-decoration: none;
+    transition: ease-out 0.5s;
+    color: #000;
+}
+
+.fa {
+    font: normal normal normal 14px/1 FontAwesome;
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+}
+.page__middle_socials .fa:hover {
+    margin-top: 1em;
+    font-size: .8em;
+    color: #646464;
+}

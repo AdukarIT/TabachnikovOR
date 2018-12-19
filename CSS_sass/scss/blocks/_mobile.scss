@@ -1,0 +1,106 @@
+.page__block_mobile {
+  display: none;
+}
+.mobile__hidden_left {
+  width: 44%;
+  height: 15.35em;
+  background: #e9eae9;
+}
+.mobile__element_left {
+  background: url(../images/BG_elem_left.png) no-repeat;
+    margin: -1px;
+    width: 255px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mobile__element_left p {
+		font-size: 1.8em;
+		margin-right: 9em;
+	}
+
+  .mobile__element_left i {
+  		font-size: 7em;
+  		position: absolute;
+  		left: .5em;
+      top: .6em;
+  	}
+  	.mobile__element_left h3{
+  		font-size: 3em;
+  		margin: .4em 6.2em .4em 0;
+  	}
+  	.mobile__element_left p {
+  		font-size: 1.8em;
+  		margin-right: 9em;
+  	}
+
+    .mobile__hidden_right {
+      width: 52%;
+      height: 238px;
+      background: #f1f2f3;
+    }
+    .mobile__element_right {
+      background: url(../images/BG_elem_right.png) no-repeat;
+        margin: -1px;
+        width: 255px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index:2;
+    }
+
+.element_hidden_right {
+		margin-left: 18em;
+    z-index:1;
+	}
+	.mobile__element_right i {
+		font-size: 7em;
+		position: absolute;
+		right: .5em;
+    top: .6em;
+	}
+
+	.mobile__element_right h3{
+		font-size: 3em;
+		margin: .4em -8em .4em 0;
+	}
+
+	.mobile__element_right p {
+		font-size: 1.8em;
+		margin-right: -12em;
+	}
+
+.stripe__block_left {
+  margin-bottom: 2em;
+  display: flex;
+  position: relative;
+}
+.stripe__block_right {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  margin-bottom: 2em;
+}
+.mobile__button {
+    display: block;
+    text-align: center;
+    margin: 2em 35% 0 35%;
+    padding-top: 1.2em;
+    width: 13em;
+    height: 60px;
+    background: #000;
+    border-radius: .3em;
+    border: 0;
+    color: #eff0f1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 2em;
+}
