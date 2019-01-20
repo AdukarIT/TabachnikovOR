@@ -70,3 +70,15 @@ nav a {
 .agreed:checked ~ .enabledbutton {
   display:block;
 }
+@font-face {
+	font-family: 'Jaapokki';
+	src: url(jaapokkisubtract-regular.eot);
+	src: url(jaapokkisubtract-regular.woff);
+	src: url(Jaapokkisubtract-Regular.otf);
+  src: url(Jaapokkisubtract-кegular.svg);
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+  font-family: 'Jaapokki';
+}
