@@ -53,3 +53,7 @@
 #   CSS sass
 
 д/з   https://github.com/AdukarIT/TabachnikovOR/tree/master/CSS_sass
+
+#   JS cycles
+
+д/з   https://github.com/AdukarIT/TabachnikovOR/tree/master/js_cicles
