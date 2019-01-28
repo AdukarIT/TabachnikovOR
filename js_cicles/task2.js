@@ -30,3 +30,5 @@ switch(car) {
   console.log(car + "\nJapan");
   break;
 }
+
+// не хватает дефолтного вывода
