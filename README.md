@@ -54,6 +54,15 @@
 
 д/з   https://github.com/AdukarIT/TabachnikovOR/tree/master/CSS_sass
 
-#   JS cycles
+#   JS hw1
 
 д/з   https://github.com/AdukarIT/TabachnikovOR/tree/master/js_cicles
+
+#   JS hw2
+
+д/з   https://github.com/AdukarIT/TabachnikovOR/tree/master/js_functions
+
+#   JS hw3
+
+д/з   https://github.com/AdukarIT/TabachnikovOR/tree/master/js_hw3
+
