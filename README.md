@@ -66,3 +66,6 @@
 
 д/з   https://github.com/AdukarIT/TabachnikovOR/tree/master/js_hw3
 
+#   JS hw4
+
+д/з   https://github.com/AdukarIT/TabachnikovOR/tree/master/js_hw4
