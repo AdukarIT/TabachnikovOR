@@ -1,5 +1,5 @@
 //task 1
-//function getRandomArray(len) {
+//function getRandomArray(len) { // уберрите комментарии
 //  var randomArr = [];
 //  for (let i = 0; i < len; i++) {
 //    randomArr[i] = Math.random();
