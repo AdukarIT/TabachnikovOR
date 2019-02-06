@@ -73,3 +73,7 @@
 #   JS hw5
 
 д/з   https://github.com/AdukarIT/TabachnikovOR/tree/master/js_hw5
+
+#   JS hw6
+
+д/з   https://github.com/AdukarIT/TabachnikovOR/tree/master/js_hw6
