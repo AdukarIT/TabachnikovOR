@@ -1,5 +1,5 @@
 //task 1
-//function checker(a , b) {
+//function checker(a , b) { // раскомментируйте код
 //  var a;
 //  var b;
 //  console.log(b in a);
