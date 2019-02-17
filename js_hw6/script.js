@@ -1,5 +1,5 @@
 //task 1
-//function numbers(len) {
+//function numbers(len) { // раскомментируйте код
 //  var array = [];
 //  for (i = 0; i < len; i++) {
 //   array[i] = ((Math.random() * 10) + 1).toFixed(3);
