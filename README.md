@@ -77,3 +77,7 @@
 #   JS hw6
 
 д/з   https://github.com/AdukarIT/TabachnikovOR/tree/master/js_hw6
+
+#   JS hw8
+
+д/з   https://github.com/AdukarIT/TabachnikovOR/tree/master/js_hw8
