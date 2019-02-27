@@ -81,3 +81,7 @@
 #   JS hw8
 
 д/з   https://github.com/AdukarIT/TabachnikovOR/tree/master/js_hw8
+
+#   JS hw9
+
+д/з   https://github.com/AdukarIT/TabachnikovOR/tree/master/js_hw9
