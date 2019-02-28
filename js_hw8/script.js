@@ -12,7 +12,7 @@ function removeClass(doc, tag) {
   let findedTags = doc.getElementsByTagName(tag);
   for (var i = 0; i < findedTags.length; i++) {
     if (findedTags[i].className == "www") {
-      findedTags[i].className = "";
+      findedTags[i].className = ""; // вы удалили все классы, а не класс www
     }
   }
 }
@@ -23,7 +23,7 @@ removeClass(document.body, "div")
 
 function recursiveSearchTags(doc, tag) {
   let result = doc.getElementsByTagName(tag);
-  result = [].slice.call(result);
+  result = [].slice.call(result); // можно сразу возвращать результат
   return result
 };
 recursiveSearchTags(document.body, 'section');
@@ -52,8 +52,8 @@ listFiller(array);
 // Задание 5. Дан элемент #elem. Найдите его соседа сверху и добавьте ему в конец текст '!'
 
 eleSearcher = document.querySelector(".task-five");
-let eleUndoTarget = searchDiv.previousElementSibling;
-let contentDivUp = eleUndoTarget.innerHTML;
+let eleUndoTarget = searchDiv.previousElementSibling; // странное название переменной
+let contentDivUp = eleUndoTarget.innerHTML; // странное название переменной
 let insertText = eleUndoTarget.appendChild(document.createTextNode("!"));
 document.body.insertBefore(eleUndoTarget, searchDiv);
 
@@ -61,11 +61,11 @@ document.body.insertBefore(eleUndoTarget, searchDiv);
 // внутри элемента div и оборачивает текст в параграф
 
 function wrapInParagraph(doc, tagClass) {
-  let para = document.createElement("p");
+  let para = document.createElement("p"); // странное название переменной
   let classSearcher = document.querySelector(tagClass);
   let nextTag = classSearcher.lastElementChild;
   let content = nextTag.innerHTML;
-  let arr = [];
+  let arr = []; // странное название переменной
   arr.push(content);
   for (var i = 0; i < arr.length; i++) {
     let text = document.createTextNode(arr[i]);
