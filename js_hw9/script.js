@@ -45,7 +45,7 @@ function changeClass(){
 	var radioThree = document.getElementById('radioThree');
 
   form.addEventListener('click', function(e){
-		if (radioOne.checked == true) table.className = 'bordered';
+		if (radioOne.checked == true) table.className = 'bordered'; // проверка на тру излишня
     else if (radioTwo.checked == true) table.className = 'striped';
     else if (radioThree.checked == true) table.className = 'highlight';
   });
@@ -65,7 +65,7 @@ function alertButtons(){
 	});
 
 	cancel.addEventListener('click', function(e){
-		button.disabled = true;
+		button.disabled = true; // нужно было отключить событие, а не выключить кнопку
 	});
 }
 alertButtons();
@@ -84,10 +84,10 @@ function mouseover(){
 		img.src = 'https://zabavnik.club/kartinki/271-kartinki-png';
 	});
 	img.addEventListener('mouseout', function(e){
-		img.src = 'https://zabavnik.club/wp-content/uploads/2018/02/kartinki_png_4_01075119-1024x1024.jpg';
+		img.src = 'https://zabavnik.club/wp-content/uploads/2018/02/kartinki_png_4_01075119-1024x1024.jpg'; // забавник, говорите)
 	});
 }
-mouseover();
+mouseover(); // так хорошо решали, почему 5 и 7 не сделали?
 
 //Task 7. Используя событие onclick реализовать аналог fancybox. При клике – картинка увеличивается в размерах
 //и всплывает над контентом. Остальной контент затемняется. Для «всплывания» изображения используйте position:absolute.
